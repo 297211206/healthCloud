@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.hhit.entity">
+
+	<class name="LoveProjectModel" table="t_love_project">
+		<id name="lvProjectId" type="long">
+			<column name="c_lvProjectId"></column>
+            <generator class="native"/>
+		</id>
+		<property name="createDate" column="c_create_date">	</property>
+		
+		<property name="lvProjectName" type="string" column="c_loveproject_name"></property>			
+		 <property name="lvProjectNeedTotalNum" type="long" column="c_need_totalnum"></property>
+		<property name="lvReceiver" type="string" column="c_love_receiver"></property>
+		<property name="lvProjectStatement" type="string" column="c_loveproject_statement"></property>  
+		   
+	</class>
+</hibernate-mapping>
