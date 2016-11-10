@@ -1,0 +1,48 @@
+
+.session_1{
+    width: 1190px;
+    min-height: 516px;
+    position: relative;
+    margin: 0 auto;
+}
+.row{display:inline-block;
+     background-color: #8C886D;
+}
+.course-img {
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+}
+.col_md_3{
+text_align:center;
+width: 20%;
+   margin:0 auto;
+    position: relative;
+    min-height: 2px;
+
+}
+
+div, form, img, ul, ol, li, dl, dt, dd, option, td, th,label, video{
+    border: 0;
+    list-style: none outside none;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+.container {
+    text_align:center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.insurance-entrance-bottom{
+ text_align:center;
+  margin:0 auto;
+   color: #fff;
+   background-color: #948728;
+   border: none;
+}
